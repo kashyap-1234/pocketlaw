@@ -1,0 +1,64 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+  
+}
+
+a{
+   color: white;
+    text-decoration: none;
+    
+}
+
+.had{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+
+    padding: 30px;
+    background-color: black;
+}
+nav ul{
+    list-style: none;
+    float:right
+}
+nav ul li{
+    padding: 1.5rem 1rem;
+   
+    float: left;
+}
+nav ul li a{
+    color: white;
+
+
+    font-size: 1.3em;
+}
+#logo{
+    font-size: 2.5em;
+    color: whitesmoke;
+}
+.container2{
+    background: url('i.svg') no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    text-align: center;
+    width: 100vw;
+    padding-bottom: 500px;
+   
+    
+}
+.container{
+    margin-top: 10em;
+    color: black;
+    
+
+}
+h1{
+    font-size: 3.5em;
+    line-height: 3.5em;
+}

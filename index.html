@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <!-- Bootstrap CSS -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <title>Law</title>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand">
+      <h1><i class="fa fa-book" aria-hidden="true"> </i> Pocket Law</h1>
+    </a>
+    <a class="navbar-brand" href="law.html">
+      Contact your Lawyer
+    </a>
+
+
+    <div class="srch">
+      <!-- <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" id="sb" onkeyup="myFunction()" > -->
+
+      <!-- <button class="btn btn-outline-success my-2 my-sm-0 " id="srh" type="submit" onclick="sortTable()">Sort</button> -->
+
+      <div class="input-group md-form form-sm form-1 pl-0">
+        <!-- <div class="input-group-prepend">
+          <form class="form-inline ">
+            <span class="input-group-text cyan lighten-2 " id="basic-text1"><i class="fas fa-search text-dark fa-1x"
+                aria-hidden="true" id="b"></i></span>
+        </div> -->
+        
+        </form>
+      </div>
+    </div>
+
+
+
+
+  </nav>
+
+  <div class="container my-4 p-8">
+  
+    <!-- <div class="he "><h1><b>Todo-List</b> </h1></div> -->
+    <div class="form-group">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" id="sb"
+          onkeyup="myFunction()">
+      <!-- <label for="title">
+        <h2 id="t">Title</h2>
+      </label>
+      <input type="text" class="form-control" id="title" placeholder="title">
+    </div>
+
+    <div class="form-group">
+      <label for="desc">
+        <h2 id="d">Description</h2>
+      </label>
+      <textarea class="form-control" id="desc" rows="3" placeholder="description"></textarea>
+    </div>
+    <button type="submit" id=add class="btn  btn-primary" role="group" onclick="add">Add to List</button>
+    <button type="submit" id=clear class="btn  btn-primary" role="group" onclick="clearstr()">Clear</button> -->
+
+    <div class="actualList my-4">
+      <h3 id="y">Your List</h3>
+      <table class="table table-dark " id="myTable">
+        <thead>
+          <tr>
+            <th scope="col" id="identity" data-column="id" data-order="desc">id</th>
+            <th scope="col" onclick="sortTable(0)">Section</th>
+            <th scope="col" onclick="sortTable(1)">Desription</th>
+            <!-- <th scope="col">Applications</th> -->
+          </tr>
+        </thead>
+        <tbody id="tlbody">
+           
+
+          <tr>
+            <th scope="row"  class="item">1</th>
+            <td>498-A</td>
+            <td>Husband or relative of husband of a woman subjecting her to cruelty <br> Applicable on:( DomesticVoilence,Dowry)<br>
+        
+    
+            </td>
+            <!-- <td><button class="btn btn-sm btn-primary">Delete</button></td> -->
+          </tr>
+
+          <tr>
+            <th scope="row"  class="item">1</th>
+            <td>113-A</td>
+            <td> Presumption as to abetment of suicide by a married woman <br>  Applicable on(DomesticVoilence)
+
+
+            </td>
+            <!-- <td><button class="btn btn-sm btn-primary">Delete</button></td> -->
+          </tr>
+
+          <tr>
+            <th scope="row"  class="item">1</th>
+            <td>304-B</td>
+            <td>If a women was subjected to cruelty or harassment by her husband or any relative of her husband for, or in connection with, any demand for dowry, such death shall be called "dowry death"<br> Applicable on:( Dowry)
+
+
+            </td>
+            <!-- <td><button class="btn btn-sm btn-primary">Delete</button></td> -->
+          </tr>
+
+          <tr>
+            <th scope="row"  class="item">1</th>
+            <td>113-B</td>
+            <td>When the question is whether a person has committed the dowry death of a woman and it is shown that soon before her death such woman had been subjected by such person to cruelty or harassment for, or in connection with, any demand for dowry, the court shall presume that such person had caused the dowry death<br>
+              Applicable on:(Dowry)
+
+
+            </td>
+            <!-- <td><button class="btn btn-sm btn-primary">Delete</button></td> -->
+          </tr>
+    
+
+<tr>
+  <th scope="row"  class="item">1</th>
+  <td>299</td>
+  <td> Culpable homicide.—Whoever causes death by doing an act with the intention of causing death, or with the intention of causing such bodily injury as is likely to cause death, or with the knowledge that he is likely by such act to cause death, commits the offence of culpable homicide.<br>
+    Applicable on:(Murder case)
+
+
+  </td>
+  <!-- <td><button class="btn btn-sm btn-primary">Delete</button></td> -->
+</tr>
+<tr>
+  <th scope="row"  class="item">1</th>
+  <td>300</td>
+  <td>Culpable homicide leads to murder when
+    If the act by which the death is caused is done with the intention of causing death,<br>
+    Applicable on:(MURDER,robbery)
+
+
+  </td>
+  <!-- <td><button class="btn btn-sm btn-primary">Delete</button></td> -->
+</tr>
+<tr>
+  <th scope="row"  class="item">1</th>
+  <td>450</td>
+  <td>Section . Whoever commits house-trespass in order to the committing of any offence punishable with imprisonment for life, shall be punished with imprisonment of either description for a term not exceeding ten years and shall also be liable to fine.<br>
+    Applicable on:(Trespass)
+
+
+  </td>
+  <!-- <td><button class="btn btn-sm btn-primary">Delete</button></td> -->
+</tr>
+
+<tr>
+  <th scope="row"  class="item">1</th>
+  <td>443</td>
+  <td>Lurking house-trespass:
+    Whoever commits house-trespass having taken precautions to conceal such house-trespass from some person who has a right to exclude or eject the trespasser from the building, tent or vessel which is the subject of the trespass, is said to commit lurking house trespass.<br>
+    Applicable on:(Trespass)
+
+
+  </td>
+  <!-- <td><button class="btn btn-sm btn-primary">Delete</button></td> -->
+</tr>
+<tr>
+  <th scope="row"  class="item">1</th>
+  <td>445</td>
+  <td>If he enters or quits through a passage by himself, or by any abettor of the house-trespass, in order to the committing of the house-trespass.<br>
+    Applicable on:(Trespass)
+
+
+  </td>
+  <!-- <td><button class="btn btn-sm btn-primary">Delete</button></td> -->
+</tr>
+<tr>
+  <th scope="row"  class="item">1</th>
+  <td>452</td>
+  <td>House-trespass after preparation for hurt, assault or wrongful restraint:<br>
+    Applicable on:(Trespass)
+  </td>
+  <!-- <td><button class="btn btn-sm btn-primary">Delete</button></td> -->
+</tr>
+<tr>
+  <th scope="row"  class="item">1</th>
+  <td>411</td>
+  <td>Section 411 of the Indian Penal Code says that any person who dishonestly possess or retains the property will be punished with at least 3 years of imprisonment, fine or both<br>
+    Applicable on:(Robbery)
+  </td>
+  <!-- <td><button class="btn btn-sm btn-primary">Delete</button></td> -->
+</tr>
+<tr>
+  <th scope="row"  class="item">1</th>
+  <td>392</td>
+  <td>The punishment for robbery is defined. This section says that any person who commits robbery shall be punished with imprisonment which may be extended up to ten years and shall also be liable for fine.<br>
+    Applicable on:(Robbery)
+  </td>
+  <!-- <td><button class="btn btn-sm btn-primary">Delete</button></td> -->
+</tr>
+<tr>
+  <th scope="row"  class="item">1</th>
+  <td>412</td>
+  <td>Section 412 of the Indian Penal Code deals with the punishment for being a member of a gang of robbers. This section deals with the person who retains or receives stolen property the possession of which he/she knows that it is due to the commission of a dacoity. It further says that when a person receives from another person whom he or she knows or has justification to believe that property belongs to a group of dacoits, and knows or has reason to believe that the property have robbed or stolen<br>
+    Applicable on:(Robbery)
+  </td>
+  <!-- <td><button class="btn btn-sm btn-primary">Delete</button></td> -->
+</tr>
+<tr>
+  <th scope="row"  class="item">1</th>
+  <td>393</td>
+  <td>Section 393 of the Indian Penal Code, 1860. It explicitly says that any person who attempts to commit robbery will be punished with rigorous imprisonment whose term can be extended to 7 years and he or she will also be liable to pay the fine.<br>
+    Applicable on:(Robbery)
+  </td>
+  <!-- <td><button class="btn btn-sm btn-primary">Delete</button></td> -->
+</tr>
+
+
+<tr>
+  <th scope="row"  class="item">1</th>
+  <td>391</td>
+  <td>Section 391 of the Indian Penal Code defines robbery. It says that when 5 or more than 5 conjointly commit or attempt to commit a robbery, or where the whole number of persons conjointly committing or attempting to commit a robbery, and persons present and aiding such commission or attempt, amount to five or more, every person so committing, attempting or aiding, is said to commit “dacoity”.<br>
+    Applicable on:(Dacoity (Aggravated Form of Robbery))
+  </td>
+  <!-- <td><button class="btn btn-sm btn-primary">Delete</button></td> -->
+</tr>
+<tr>
+  <th scope="row"  class="item">1</th>
+  <td>399</td>
+  <td>Section 399 of the Indian Penal Code, 1860 has talks about preparation to commit dacoity. It says that whoever makes any preparation for committing dacoity shall be punished with rigorous imprisonment for a term which may extend to ten years, and shall also be liable to fine<br>
+    Applicable on:(Dacoity (Aggravated Form of Robbery))
+  </td>
+  <!-- <td><button class="btn btn-sm btn-primary">Delete</button></td> -->
+</tr>
+<tr>
+  <th scope="row"  class="item">1</th>
+  <td>25</td>
+  <td>"Fraudulently".- A person is said to do a thing fraudulently if he does that thing with intent to defraud but not otherwise.<br>
+    Applicable on:(Fraud)
+  </td>
+  <!-- <td><button class="btn btn-sm btn-primary">Delete</button></td> -->
+</tr>
+<tr>
+  <th scope="row"  class="item">1</th>
+  <td>421</td>
+  <td>Fraudulent removal or concealment of property to prevent distribution among creditors.<br>
+    Applicable on:(Fraud)
+  </td>
+  <!-- <td><button class="btn btn-sm btn-primary">Delete</button></td> -->
+</tr>Fraudulently preventing debt being available for creditors. (Section 422 IPC)
+<tr>
+  <th scope="row"  class="item">1</th>
+  <td>422</td>
+  <td>Fraudulently preventing debt being available for creditors.<br>
+    Applicable on:(Fraud)
+  </td>
+  <!-- <td><button class="btn btn-sm btn-primary">Delete</button></td> -->
+</tr>
+<tr>
+  <th scope="row"  class="item">1</th>
+  <td>423</td>
+  <td>Fraudulent execution of deed of transfer containing false statement of consideration.
+    <br>
+    Applicable on:(Fraud)
+  </td>
+  <!-- <td><button class="btn btn-sm btn-primary">Delete</button></td> -->
+</tr>
+<tr>
+  <th scope="row"  class="item">1</th>
+  <td>424</td>
+  <td>Fraudulent removal or concealment of property.<br>
+    Applicable on:(Fraud)
+  </td>
+  <!-- <td><button class="btn btn-sm btn-primary">Delete</button></td> -->
+</tr>
+ 
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="main.js"></script>
+  <!-- <script src="http://code.jquery.com/jquery.min.js"></script> -->
+<script src="http://code.jquery.com/ui/1.8.17/jquery-ui.min.js"></script>
+<script src="jquery.ui.touch-punch.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
+  <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script> 
+  <!-- <script src="https://getbootstrap.com/dist/js/bootstrap.min.js"></script> -->
+
+
+  <script type="text/javascript">
+    $('tbody').sortable();
+    $('#widget').draggable();
+  </script>
+
+</body>
+
+</html>
